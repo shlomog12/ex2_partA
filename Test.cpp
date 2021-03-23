@@ -65,9 +65,6 @@ TEST_CASE("Ordinary cases") {
     CHECK (board.read(408, 512, Direction::Horizontal,13 ) == "lly!!bob_____");
     CHECK (board.read(398, 503, Direction::Vertical, 12) == "_Ddshho4o_S_");
   
-
-    board.show();
-
 }
 
 
